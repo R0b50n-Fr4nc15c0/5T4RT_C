@@ -1,3 +1,18 @@
-﻿  Ex_8.cpp
-C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_8.cpp(86,1): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
-  Start_C++.vcxproj -> C:\Users\aluno.cad\Documents\Robson\Start_C++\x64\Debug\Start_C++.exe
+﻿  Ex_12P.cpp
+C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(43,24): warning C4473: 'scanf_s' : não há argumentos suficientes transmitidos para a cadeia de caracteres de formato
+  C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(43,24):
+  espaços reservados e seus parâmetros esperam 2 argumentos variadic, mas 1 foram fornecidos
+  C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(43,24):
+  o argumento variadic 2 ausente é requerido pela cadeia de formato '%s'
+  C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(43,24):
+  esse argumento é usado como um tamanho do buffer
+  
+C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(66,24): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(153,25): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(183,24): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(209,24): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(212,17): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(229,25): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(232,17): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(249,24): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\aluno.cad\Documents\Robson\Start_C++\Start_C++\Ex_12P.cpp(252,17): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

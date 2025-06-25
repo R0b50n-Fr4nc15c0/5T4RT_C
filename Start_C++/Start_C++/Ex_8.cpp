@@ -1,8 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char** frutas;
 int quantidade = 0;
+
+typedef struct 
+{
+	
+}Fruta;
+
+char** frutas;
 float* preco_compras;
 float* preco_vendas;
 int* QTD_Cs;
@@ -17,20 +23,12 @@ void adicionarFruta()
 	int QTD_V;
 	system("cls");
 
-	printf("Digite o nome da fruta: ");
-	scanf_s("%s", fruta, 30);
+	printf("Digite o nome da fruta: ");         scanf_s("%s", fruta, 30);	
+	printf("Digite o preco da compra: ");       scanf_s("%f", &preco_compra);
+	printf("Digite o preco de venda: ");     	scanf_s("%f", &preco_venda);
+	printf("Digite a quantidade comprada: ");	scanf_s("%d", &QTD_C);
+	printf("Digite a quantidade vendida: ");	scanf_s("%d", &QTD_V);
 	
-	printf("Digite o preco da compra: ");
-	scanf_s("%f", &preco_compra);
-
-	printf("Digite o preco de venda: ");
-	scanf_s("%f", &preco_venda);
-
-	printf("Digite a quantidade comprada: ");
-	scanf_s("%d", &QTD_C);
-
-	printf("Digite a quantidade vendida: ");
-	scanf_s("%d", &QTD_V);
 	system("cls");
 
 	if (quantidade == 0)
