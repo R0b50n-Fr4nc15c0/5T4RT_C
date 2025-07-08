@@ -6,9 +6,9 @@
 
 class PowerSource {
 public:
-	int PM;		/*Produção Media em MW/Ano*/
-	int CM;		/*Custo Medio da instalação*/
-	int CM_M;	/*Custo Medio de Manutenção*/
+	int PM;		/*ProduÃ§Ã£o Media em MW/Ano*/
+	int CM;		/*Custo Medio da instalaÃ§Ã£o*/
+	int CM_M;	/*Custo Medio de ManutenÃ§Ã£o*/
 };
 
 class painel_S : public PowerSource {	
@@ -27,7 +27,7 @@ void Tabela(const PowerSource) {
 
 	painel_S P;
 	std::cout << "+-------------------------------------------------------------------------------------------------------------------+";
-	std::cout << "|      PowerSource     |   Produção Media em MW/Ano   |   Custo Medio da instalação   |  Custo Medio de Manutenção  |";
+	std::cout << "|      PowerSource     |   ProduÃ§Ã£o Media em MW/Ano   |   Custo Medio da instalaÃ§Ã£o   |  Custo Medio de ManutenÃ§Ã£o  |";
 	std::cout << "|-------------------------------------------------------------------------------------------------------------------|";
 	std::cout << "|     Painel Solar     |        " + P.PM, + "         |                               |                             |";
 	std::cout << "|                      |                              |                               |                             |";
@@ -37,3 +37,4 @@ int main(){
 	std::cout << "---Gerador---\n" << Tabela;
 	return 0;
 }
+//IMCOMPLETO!!!
